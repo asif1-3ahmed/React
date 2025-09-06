@@ -1,0 +1,19 @@
+
+.container {
+  font-family: Arial, sans-serif;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-body button {
+  margin-top: 10px;
+}
